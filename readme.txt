@@ -2,7 +2,7 @@
 Contributors: nofearinc, devrix
 Tags: plugin, categories, posts, report, numbers, content, marketing
 Requires at least: 3.8
-Tested up to: 4.6
+Tested up to: 4.6.1
 Stable tag: 0.8
 License: GPLv2 or later
 
@@ -22,7 +22,8 @@ The reports page is under Settings -> DX Category Reports
 
 == Screenshots ==
 
-1. Count of posts submitted under Talks over time
+1. DX Category Reports Settings page
+2. Count of posts submitted under Post Formats over time
 
 == Frequently Asked Questions ==
 
