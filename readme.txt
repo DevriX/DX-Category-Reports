@@ -2,7 +2,7 @@
 Contributors: nofearinc, devrix
 Tags: plugin, categories, posts, report, numbers, content, marketing
 Requires at least: 3.8
-Tested up to: 4.6.1
+Tested up to: 4.7
 Stable tag: 0.8
 License: GPLv2 or later
 
