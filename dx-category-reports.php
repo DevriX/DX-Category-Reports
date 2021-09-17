@@ -59,7 +59,7 @@ if ( ! class_exists( 'DX_Category_Reports' ) ) {
 		 * @param $hook admin hook for the screen options map
 		 */
 		public function enqueue_media( $hook ) {
-			if ( 'admin_page_dx-category-reports' === $hook ) {
+			if ( 'settings_page_dx-category-reports' === $hook ) {
 				wp_enqueue_style( 'admin-category-reports', plugins_url( 'assets/css/category-reports.css', __FILE__ ) );
 			}
 		}
