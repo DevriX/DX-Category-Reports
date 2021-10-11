@@ -89,3 +89,33 @@
 .reports-table tr:first-child td:last-child {
 	border-width: 0px 0px 1px 1px;
 }
+
+.dx-template-wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.wrap.content-wrapper {
+	margin-top: 0;
+}
+.dx-template-wrapper .postbox {
+	padding: 5px;
+}
+.dx-template-wrapper .postbox h3{
+	font-size: 14px;
+	margin-left: 12px;
+}
+.dx-template-wrapper .postbox a{
+	text-decoration: none;
+}
+.sidebars {
+	display: flex;
+	flex-direction: column;
+}
+.sidebar-footer {
+	border-top: 1px solid #77777785;
+	text-align: center;
+	padding-top: 5px;
+}
+
