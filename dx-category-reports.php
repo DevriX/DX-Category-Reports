@@ -46,7 +46,7 @@ if ( ! class_exists( 'DX_Category_Reports' ) ) {
 		 * Create the options page that does the magic
 		 */
 		public function register_options_page() {
-			add_options_page( __( "DX Category Reports", 'dxcr' ), __( "DX Category Reports", 'dxcr' ), 'edit_themes', 'dx-category-reports', array( $this, 'register_options_page_cb' ) );
+			add_menu_page( __( "DX Category Reports", 'dxcr' ), __( "DX Category Reports", 'dxcr' ), 'edit_themes', 'dx-category-reports', array( $this, 'register_options_page_cb' ) );
 		}
 		
 		public function register_options_page_cb() {
@@ -59,9 +59,7 @@ if ( ! class_exists( 'DX_Category_Reports' ) ) {
 		 * @param $hook admin hook for the screen options map
 		 */
 		public function enqueue_media( $hook ) {
-			if ( 'settings_page_dx-category-reports' === $hook ) {
-				wp_enqueue_style( 'admin-category-reports', plugins_url( 'assets/css/category-reports.css', __FILE__ ) );
-			}
+			wp_enqueue_style( 'admin-category-reports', plugins_url( 'assets/css/category-reports.css', __FILE__ ) );
 		}
 	}
 	
