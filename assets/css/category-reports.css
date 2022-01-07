@@ -6,7 +6,7 @@
 	margin: 0px;
 	padding: 0px;
 	min-width: 350px;
-	box-shadow: 10px 10px 5px #888888;
+	box-shadow: 5px 5px 5px #c1c1c1;
 	border: 1px solid #000000;
 
 	-moz-border-radius-bottomleft: 0px;
@@ -25,10 +25,10 @@
 	-webkit-border-top-left-radius: 0px;
 	border-top-left-radius: 0px;
 }
-.reports-table table {
+.reports-table {
 	border-collapse: collapse;
 	border-spacing: 0;
-	width: 100%;
+	width: auto;
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
@@ -53,20 +53,24 @@
 	-webkit-border-bottom-left-radius: 0px;
 	border-bottom-left-radius: 0px;
 }
-.reports-table tr:hover td {
+.reports-table thead tr:nth-child(odd) {
+	background: #a5c3ff;
 }
-.reports-table tr:nth-child(odd) {
-	background-color: #76a1f7;
+.reports-table thead th {
+	font-weight: 700;
 }
 .reports-table tr:nth-child(even) {
+	background-color: #a5c3ff;
+}
+.reports-table tr:nth-child(odd) {
 	background-color: #ffffff;
 }
-.reports-table td {
+.reports-table td, .reports-table th {
 	vertical-align: middle;
 
 	border: 1px solid #000000;
 	border-width: 0px 1px 1px 0px;
-	text-align: left;
+	text-align: center;
 	padding: 7px;
 	font-size: 14px;
 	font-family: Arial;
