@@ -5,7 +5,6 @@
 .reports-table {
 	margin: 0px;
 	padding: 0px;
-	min-width: 350px;
 	box-shadow: 5px 5px 5px #c1c1c1;
 	border: 1px solid #000000;
 
@@ -71,7 +70,7 @@
 	border: 1px solid #000000;
 	border-width: 0px 1px 1px 0px;
 	text-align: center;
-	padding: 7px;
+	padding: 7px 15px;
 	font-size: 14px;
 	font-family: Arial;
 	font-weight: normal;
