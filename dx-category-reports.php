@@ -61,7 +61,6 @@ if ( ! class_exists( 'DX_Category_Reports' ) ) {
 		public function enqueue_media( $hook ) {
 			if ( 'settings_page_dx-category-reports' === $hook ) {
 				wp_enqueue_style( 'admin-category-reports', plugins_url( 'assets/css/category-reports.css', __FILE__ ) );
-				wp_enqueue_script( 'admin-category-reports', plugins_url( 'assets/js/scripts.js', __FILE__ ) );
 			}
 		}
 	}
