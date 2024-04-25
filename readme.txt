@@ -2,8 +2,9 @@
 Contributors: nofearinc, devrix
 Tags: plugin, categories, posts, report, numbers, content, marketing
 Requires at least: 3.8
-Tested up to: 5.9
-Stable tag: 1.0
+Requires PHP: 7.4
+Tested up to: 6.5
+Stable tag: 1.1
 License: GPLv2 or later
 
 A simple plugin for building a content marketing report for each category per month.
@@ -32,6 +33,11 @@ The reports page is under Settings -> DX Category Reports
 Yes, it is, as well as with the latest PHP. 
 
 == Changelog ==
+
+= 1.1 =
+* Tested with WordPress 6.5
+* Update Requires version to 5.0
+* Update Requires PHP version to 7.4
 
 = 1.0 =
 * Tested with WordPress 5.9

@@ -3,8 +3,8 @@
  * Plugin Name: DX Category Reports
  * Description: List a number of posts for each category per month
  * Author: nofearinc
- * Author URI: https://devwp.eu/
- * Version: 1.0
+ * Author URI: https://devrix.com/
+ * Version: 1.1
  * Text Domain: dxcr
  * License: GPL2
 
